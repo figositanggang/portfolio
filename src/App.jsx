@@ -6,11 +6,25 @@ import GlobalStyle from "./GlobalStyle";
 
 // Components
 import { Header, Nav, NavItem } from "./components/Home/Header";
+import { FloatingButton, Button } from "./components/FloatingButton";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <FloatingButton className="d-flex position-fixed align-items-center">
+          <Button href="https://www.facebook.com" target="_blank">
+            f
+          </Button>
+          |
+          <Button href="https://www.facebook.com" target="_blank">
+            f
+          </Button>
+          |
+          <Button href="https://www.facebook.com" target="_blank">
+            f
+          </Button>
+        </FloatingButton>
         <Header>
           <NavLink
             to="/"
@@ -28,10 +42,10 @@ class App extends Component {
               <NavItem>About</NavItem>
             </NavLink>
             <NavLink
-              to="/gallery"
+              to="/work"
               className={({ isActive }) => (isActive ? "active-link" : "")}
             >
-              <NavItem>Gallery</NavItem>
+              <NavItem>Work</NavItem>
             </NavLink>
           </Nav>
         </Header>

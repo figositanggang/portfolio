@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 
+import { Main } from "./style";
+
 class UnkownRoute extends Component {
   render() {
     return (
-      <div>
+      <Main>
         <h2>Kosong</h2>
-      </div>
+      </Main>
     );
   }
 }

@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-class HomeRoute extends Component {
+class WorkRoute extends Component {
   render() {
     return (
       <main>
-        <h2>Home</h2>
+        <h2>Work</h2>
       </main>
     );
   }
 }
 
-export default HomeRoute;
+export default WorkRoute;

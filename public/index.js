@@ -1,0 +1,3 @@
+window.scroll({
+  behavior: "smooth",
+});

@@ -1,5 +1,6 @@
 * {
   font-family: 'Courier New';
+  cursor: default;
 }
 
 @keyframes App-logo-spin {
@@ -16,8 +17,10 @@ a {
   text-decoration: none;
   padding: .25rem .5rem;
   border-bottom: 3px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
 }
 
 .active-link {
   border-bottom: 3px solid rgb(254, 254, 254, .5);
+  border-bottom-style: groove;
 }

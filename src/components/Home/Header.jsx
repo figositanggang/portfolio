@@ -5,6 +5,9 @@ export const Header = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background: rgb(15, 17, 21, 0.95);
 `;
 
 export const Nav = styled.nav`
@@ -19,7 +22,7 @@ export const NavItem = styled.a`
   letter-spacing: 1px;
   @media screen and (min-width: 500px) {
     :hover {
-      background: #00000013;
+      background: #ffffff13;
       letter-spacing: 0;
     }
   }
