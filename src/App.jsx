@@ -13,16 +13,22 @@ class App extends Component {
     return (
       <div className="App">
         <FloatingButton className="d-flex position-fixed align-items-center">
-          <Button href="https://www.facebook.com" target="_blank">
-            f
+          <Button href="https://www.facebook.com/unlinked182/" target="_blank">
+            <span>
+              <i class="fa-brands fa-facebook"></i>
+            </span>
           </Button>
           |
-          <Button href="https://www.facebook.com" target="_blank">
-            f
+          <Button href="https://twitter.com/emmet_182/" target="_blank">
+            <span>
+              <i class="fa-brands fa-twitter"></i>
+            </span>
           </Button>
           |
-          <Button href="https://www.facebook.com" target="_blank">
-            f
+          <Button href="https://www.instagram.com/mas.ogif/" target="_blank">
+            <span>
+              <i class="fa-brands fa-instagram"></i>
+            </span>
           </Button>
         </FloatingButton>
         <Header>

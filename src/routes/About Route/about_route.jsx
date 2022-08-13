@@ -1,11 +1,15 @@
 import React, { Component } from "react";
+import DocumentTitle from "react-document-title";
 
 class AboutRoute extends Component {
   render() {
     return (
-      <main>
-        <h2>About</h2>
-      </main>
+      <DocumentTitle title="Figo Sitanggang | About">
+        <main>
+          <title>"aw</title>
+          <h2>About</h2>
+        </main>
+      </DocumentTitle>
     );
   }
 }
