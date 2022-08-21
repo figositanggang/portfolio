@@ -4,6 +4,7 @@ export const FloatingButton = styled.div`
   bottom: 1rem;
   right: 1rem;
   color: white;
+  z-index: 999;
 `;
 
 export const Button = styled.a`

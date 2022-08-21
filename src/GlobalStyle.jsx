@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
     --dark: rgb(15, 19, 26);
     }
     body {
-        background: rgb(15, 17, 21);
+        background: linear-gradient(rgb(15, 17, 21) 27%, rgb(26, 30, 37), rgb(63, 71, 86), rgb(88, 100, 121)) no-repeat;
     }
     p, h1, h2, h3, h4, h5, h6 {
         color: rgba(255, 255, 255, 0.75);

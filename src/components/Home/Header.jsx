@@ -7,7 +7,8 @@ export const Header = styled.nav`
   align-items: center;
   position: sticky;
   top: 0;
-  background: rgb(15, 17, 21, 0.95);
+  background: rgba(0, 44, 140, 0.05);
+  z-index: 9999;
 `;
 
 export const Nav = styled.nav`

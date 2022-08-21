@@ -13,28 +13,36 @@ class App extends Component {
     return (
       <div className="App">
         <FloatingButton className="d-flex position-fixed align-items-center">
-          <Button href="https://www.facebook.com/unlinked182/" target="_blank">
-            <span>
-              <i class="fa-brands fa-facebook"></i>
-            </span>
+          <Button
+            href="https://www.facebook.com/unlinked182/"
+            target="_blank"
+            title="Figo Sitanggang"
+          >
+            <i class="fa-brands fa-facebook"></i>
           </Button>
           |
-          <Button href="https://twitter.com/emmet_182/" target="_blank">
-            <span>
-              <i class="fa-brands fa-twitter"></i>
-            </span>
+          <Button
+            href="https://twitter.com/emmet_182/"
+            target="_blank"
+            title="Amwill Ph.D"
+          >
+            <i class="fa-brands fa-twitter"></i>
           </Button>
           |
-          <Button href="https://www.instagram.com/mas.ogif/" target="_blank">
-            <span>
-              <i class="fa-brands fa-instagram"></i>
-            </span>
+          <Button
+            href="https://www.instagram.com/mas.ogif/"
+            target="_blank"
+            title="Figo Sitanggang"
+          >
+            <i class="fa-brands fa-instagram"></i>
           </Button>
         </FloatingButton>
         <Header>
           <NavLink
             to="/"
-            className={({ isActive }) => (isActive ? "active-link" : "")}
+            className={({ isActive }) =>
+              isActive ? "active-link" : "un-active"
+            }
           >
             <NavItem>Home</NavItem>
           </NavLink>
@@ -42,14 +50,16 @@ class App extends Component {
             <NavLink
               to="/about"
               className={({ isActive }) =>
-                isActive ? "active-link me-4" : " me-4"
+                isActive ? "active-link me-4" : " me-4 un-active"
               }
             >
               <NavItem>About</NavItem>
             </NavLink>
             <NavLink
               to="/work"
-              className={({ isActive }) => (isActive ? "active-link" : "")}
+              className={({ isActive }) =>
+                isActive ? "active-link" : "un-active"
+              }
             >
               <NavItem>Work</NavItem>
             </NavLink>
